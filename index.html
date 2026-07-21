@@ -176,7 +176,7 @@
 
 
 
-        <script>
+    <script>
         var tablinks = document.getElementsByClassName("tab-link");
         var tabcontents = document.getElementsByClassName("tab-contents");
 
@@ -205,5 +205,20 @@
             sidemenu.style.right = "-200px";
         }
     </script>
+
+
+    <script>
+	const scriptURL = 'https://script.google.com/macros/s/AKfycbx1Entp4M6iy6F3od6q7GQHkf5tOTmtB2u1BSwMDV8wtwl60Ncmpktzt-yoaDpD0UmG/exec'
+	const form = document.forms['YOUR_FORM_NAME']
+
+	form.addEventListener('submit', e => {
+		e.preventDefault()
+		fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+			.then(response => response.json())
+			.then(response => console.log('Success!', response))
+			.catch(error => console.error('Error!', error.message))
+	})
+    </script>
+    
 </body>
 </html>
