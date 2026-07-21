@@ -142,7 +142,37 @@
     </div>
 
 
-    
+              <!-------------------Contact Section------------------->
+          
+          <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p id="icon"> <span id="icon1"><i class="fa-solid fa-envelope"></i></span> usama.arshad@gmail.com</p>
+                        <p id="icon"> <span id="icon1"><i class="fa-solid fa-phone"></i></span> +92 3431535799</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="pdf/My CV.pdf" download class="btn-resume">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="YOUR_FORM_NAME">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="text" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                            <button type="submit" class="btn-resume2">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-right">
+                <p>Usama Arshad. Built with ❤️ using HTML, CSS & JavaScript.</p>
+            </div>
+          </div>
 
 
 
@@ -161,6 +191,19 @@
             document.getElementById(tabName).classList.add("active-tab");
         }
 
+    </script>
+
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
     </script>
 </body>
 </html>

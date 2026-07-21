@@ -274,3 +274,140 @@ margin-top: 50px;
     margin-top: 8px;
     display: inline-block;
 }
+
+
+
+/*--------------------Contact Section------------------*/
+
+#contact{
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.contact-left{
+    flex-basis: 35%;
+}
+
+.contact-right{
+    flex-basis: 60%;
+}
+
+.contact-left p{
+margin-top: 30px;
+}
+
+.contact-left p i{
+    color: #eb3b73; 
+    margin-right: 10px;
+    font-size: 25px;
+    text-decoration: none;
+}
+#icon1{
+    color: #eb3b73;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.social-icons{
+    margin-top: 30px;
+}
+
+.social-icons a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    margin-right: 15px;
+    transition: 0.5s;
+    display: inline-block;
+    transform: translateY(0.5s);
+}
+.social-icons a:hover{
+    color: #eb3b73;
+    transform: translateY(-5px);
+}
+
+.btn-resume{
+    display: inline-block;
+    background: linear-gradient(135deg, #eb3b73, #ff5f8f);
+    color: #fff;
+    padding: 14px 35px;
+    border-radius: 50px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(235, 59, 115, 0.35);
+}
+
+.btn-resume:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(235, 59, 115, 0.5);
+    background: linear-gradient(135deg, #ff5f8f, #eb3b73);
+}
+
+.btn-resume:active{
+    transform: scale(0.97);
+}
+
+.contact-right form{
+    width: 100%;
+}
+
+
+.btn-resume2{
+    display: inline-block;
+    background: linear-gradient(135deg, #eb3b73, #ff5f8f);
+    color: #fff;
+    padding: 14px 35px;
+    border-radius: 50px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(235, 59, 115, 0.35);
+}
+
+.btn-resume2:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(235, 59, 115, 0.5);
+    background: linear-gradient(135deg, #ff5f8f, #eb3b73);
+}
+
+.btn-resume2:active{
+    transform: scale(0.97);
+}
+
+form input, form textarea{
+    width: 100%;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+    border: none;
+    background: #262626;
+    color: #fff;
+    outline: none;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+form .btn-resume{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.copy-right{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0px;
+    margin-top: 20px;
+    font-weight: 300;
+    background-color:#262626;
+    
+}
