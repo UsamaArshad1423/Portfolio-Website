@@ -229,3 +229,48 @@ margin-top: 50px;
     transform: translateY(-10px);
 
 }
+
+
+/*--------------------Portfolio------------------*/
+
+#portfolio{
+    padding: 50px 0;
+    color: #ffff;
+}
+
+.work-list{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+grid-gap: 40px;
+margin-top: 50px;
+}
+
+.work{
+    border-radius: 1px;
+    position: relative;
+    overflow: hidden;
+}
+
+.work img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.layer h3{
+    margin-top: 20px;
+    color: #fff;
+}
+.layer p{
+    margin-top: 15px;
+    line-height: 20px;
+    color: #D1D5DB;
+}
+
+.layer a{
+    text-decoration: none;
+    color: #eb3b73;
+    font-size: 12px;
+    margin-top: 8px;
+    display: inline-block;
+}
